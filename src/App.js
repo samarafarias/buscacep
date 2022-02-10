@@ -27,7 +27,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1 className="title">Buscador CEP</h1>
+      <h1 className="title">Buscar CEP</h1>
 
       <div className="containerInput">
         <input type="text" placeholder="Digite seu cep..." value={input} onChange={(event) => setInput(event.target.value) }  />

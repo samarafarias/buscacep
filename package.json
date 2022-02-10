@@ -2,7 +2,7 @@
   "name": "buscacep",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://samarafarias.github.io/buscacep/",
+  "homepage": "https://samarafarias.github.io/buscacep",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.2",
@@ -19,6 +19,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "publicar": "npm run build && ./node_modules/.bin/gh-pages -d build"
   },
   "eslintConfig": {
